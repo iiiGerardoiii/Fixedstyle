@@ -1,6 +1,6 @@
 # Fixedstyle theme for Textual
 
-![Screenshot](http://i.imgur.com/KNTOzGW.png)
+![Screenshot](http://i.imgur.com/QMoncOL.png)
 
 I wanted a theme for Textual that could fill these requirements:
 * Look nice with FixedsysExcelsior (no font-smoothing, always 16px, etc)
