@@ -1,6 +1,11 @@
 # Fixedstyle theme for Textual
+![Screenshot](http://i.imgur.com/QMoncOL.png)
+
 ## IMPORTANT:
 This theme was made for non-retina displays only, if you're using a retina display or any HiDPI display, this might not be the theme for you because Fixedsys upscaled 2x its size doesn't look good. But that's just my opinion you be the judge.
+
+---
+
 ## About
 I wanted a theme for Textual that could fill these requirements:
 * Look nice with FixedsysExcelsior (no font-smoothing, always 16px, etc)
@@ -9,9 +14,7 @@ I wanted a theme for Textual that could fill these requirements:
 * Have the timestamp on the left side
 * NOT have nick indentation or a marker line that divides the nickname from the message
 
-I couldn't find one that had all those features so I created *Fixedstyle*, based on [textual-solarized-dark](https://github.com/Xorcode/textual-solarized-dark). This is what it looks like in action:
-
-![Screenshot](http://i.imgur.com/QMoncOL.png)
+I couldn't find one that had all those features so I created *Fixedstyle*, based on [textual-solarized-dark](https://github.com/Xorcode/textual-solarized-dark).
 
 ## Main Features
 **FixedsysExcelsior 3.01-L2 used as main font:**
