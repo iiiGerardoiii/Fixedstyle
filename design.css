@@ -768,25 +768,15 @@ video {
 	max-width: 600px;
     margin-top: 0px !important;
     border-radius: 0px !important;
-    background: rgba(255,255,255,0.05);
     padding: 0px !important;
-    overflow: auto;
-    display: -webkit-flex;
-    display: flex;
-    border: none;
 }
 
 .inline_media_twitter {
 	width: 260px;
     margin-top: 0px !important;
     border-radius: 0px !important;
-    background: rgba(255,255,255,0.05);
     padding: 0px !important;
 	padding-left: 10px !important;
-    overflow: auto;
-    display: -webkit-flex;
-    display: flex;
-    border: none;
 }
 
 .inline_media_website_title,
@@ -802,7 +792,6 @@ video {
     font-size: 16px !important;
     color: #FFBD59 !important;
     font-family: "FixedsysExcelsiorIIIb-L2" !important;
-    text-decoration: underline;
 	text-indent: 0px !important;
 	padding: 12px 16px 12px 16px;
 	margin-left: 0px !important;
@@ -821,38 +810,27 @@ video {
 .inline_media_youtube_views {
     color: #aaa !important;
     font-size: 16px !important;
-    line-height: 18px;
 	padding: 0px 16px 0px 16px;
 }
 
 .inline_media_website_thumbnail,
 .inline_media_youtube_thumbnail,
 .inline_media_wiki_thumbnail {
-    width: auto;
-    height: auto;
     max-width: 250px !important;
     max-height: 250px !important;
     margin-right: 0px !important;
-    position: relative;
 }
 
 .inline_media_youtube_thumbnail > img {
-    width: auto;
-    height: auto;
-    max-width: 250px !important;
-    max-height: 250px !important;
-	padding-left: 44px;
+    max-width: 249px !important;
+    max-height: none !important;
+	padding-left: 46px;
 }
 
 .inline_media_youtube_thumbnail > span {
-    position: absolute;
-    right: 2px;
-    bottom: 2px;
     height: 17px !important;
     line-height: 17px !important;
-    background: #000;
     font-size: 16px !important;
-    color: #fff;
     font-weight: 400 !important;
     padding-left: 6px !important;
     padding-right: 6px !important;
@@ -861,31 +839,4 @@ video {
 
 .inline_media_wiki_thumbnail {
     max-height: 250px !important;
-}
-
-.inline_media_website_info,
-.inline_media_youtube_info,
-.inline_media_wiki_info {
-    -webkit-flex: 1;
-    flex: 1;
-}
-
-blockquote.twitter-tweet {
-    display: inline-block;
-    padding: 16px;
-    margin: 10px 0;
-    max-width: 468px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-    font: bold 14px/18px Helvetica, Arial, sans-serif;
-}
-
-blockquote.twitter-tweet p {
-    font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
-    margin: 0 5px 10px 0;
-}
-
-blockquote.twitter-tweet a[href^="https://twitter.com"] {
-    font-weight: normal;
-    font-size: 12px;
 }
