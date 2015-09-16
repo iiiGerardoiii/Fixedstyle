@@ -177,7 +177,6 @@ a:hover {
 	display: inline-block;
 	float: left;
 	margin-right: 12px;
-	margin-left: 10px;
 	min-width: 40px;
 	max-width: 90%;
 }
@@ -186,14 +185,11 @@ a:hover {
 	cursor: pointer;
 	border: 1px solid;
 	display: inline-block;
-	line-height: auto;
-	font-size: 16px;
-	font-family: "FixedsysExcelsiorIIIb-L2" !important;
+	color: #606060;
 	text-indent: 5px;
-	width: auto;
-	height: auto;
-	float: left;
+	margin-left: -20px;
 	padding-right: 5px;
+	position: absolute;
 }
 
 html[systemversion^="10.9"] .inlineImageCell .closeButton,
@@ -750,8 +746,8 @@ body .inline_nickname[colornumber='30'] {
 /* Textual-Inline-Media tweaks */
 
 video {
-    margin-left: 46px;
-    padding: 2px;
+    margin-top: 6px;
+	padding-bottom: 6px;
     width: auto;
     height: auto;
     max-width: 250px;
@@ -762,9 +758,11 @@ video {
 .inline_media_youtube,
 .inline_media_wiki {
 	max-width: 600px;
-    margin-top: 0px !important;
+    margin-top: 6px !important;
+	margin-bottom: 6px !important;
     border-radius: 0px !important;
-    padding: 0px !important;
+    padding: 2px !important;
+	background: rgba(28, 28, 28, 1) !important;
 }
 
 .inline_media_twitter {
@@ -773,6 +771,7 @@ video {
     border-radius: 0px !important;
     padding: 0px !important;
 	padding-left: 10px !important;
+	background: rgba(28, 28, 28, 1) !important;
 }
 
 .inline_media_website_title,
@@ -824,7 +823,6 @@ video {
 .inline_media_youtube_thumbnail > img {
     max-width: 250px !important;
     max-height: 140px !important;
-	padding-left: 46px;
 }
 
 .inline_media_youtube_thumbnail > span {
