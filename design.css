@@ -766,6 +766,10 @@ video {
 	background: rgba(0, 0, 0, 0.15) !important;
 }
 
+.inline_media_xkcd {
+	background: #fff !important;
+}
+
 .inline_media_twitter {
 	width: 260px;
     margin-top: 0px !important;
@@ -834,8 +838,18 @@ video {
     padding-left: 6px !important;
     padding-right: 6px !important;
 	text-indent: 0px;
+	-webkit-font-smoothing: none;
 }
 
-.inline_media_wiki_thumbnail {
-    max-height: 250px !important;
+.inline_media_xkcd_title {
+    font-size: 100% !important;
+	font-weight: 400;
+	-webkit-font-smoothing: none;
+	color: #000;
+	padding-left: 7px;
+	margin: 5px !important;
+}
+
+.inline_media_xkcd_image {
+	max-width: 600px;
 }
