@@ -851,5 +851,6 @@ video {
 }
 
 .inline_media_xkcd_image {
-	max-width: 600px;
+	width: 600px;
+	max-width: 100%;
 }
