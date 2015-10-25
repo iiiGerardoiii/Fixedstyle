@@ -16,13 +16,15 @@
 	<key>Indentation Offset</key>
 	<integer>6</integer>
 	<key>Underlying Window Color</key>
-	<string>#242323</string>
+	<string>#2D2D2D</string>
 	<key>Force Invert Sidebars</key>
-	<true/>
+	<false/>
 	<key>Template Engine Versions</key>
 	<dict>
 		<key>default</key>
 		<integer>3</integer>
 	</dict>
+	<key>Nickname Color Style</key>
+	<string>HSL-dark</string>
 </dict>
 </plist>
