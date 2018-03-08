@@ -11,11 +11,9 @@
 	<key>Template Engine Versions</key>
 	<dict>
 		<key>default</key>
-		<integer>3</integer>
+		<integer>4</integer>
 	</dict>
 	<key>Underlying Window Color</key>
-	<string>#2D2D2D</string>
-	<key>Timestamp Format</key>
-	<string>%I:%M</string>
+	<string>#000000</string>
 </dict>
 </plist>
